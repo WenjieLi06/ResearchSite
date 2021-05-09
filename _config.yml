@@ -201,6 +201,12 @@ exclude:
   - /test
   - /vendor
 
+collections:
+  publications:
+    output: true
+  news:
+    output: true
+
 defaults:
   - scope:
       path: ""
