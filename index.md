@@ -16,9 +16,6 @@ Having been trained as an electrochemist, Wenjie likes to think about the flow o
 ### Recent News
 
 {% for news in site.news limit:3%}
-  <h4>
-      {{ news.title }}
-  </h4>
   <p class="blogdate">{{ news.date | date: "%d %B %Y" }}</p>
   <p>{{ news.content | markdownify }}</p>
 {% endfor %}
