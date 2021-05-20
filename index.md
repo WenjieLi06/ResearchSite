@@ -14,16 +14,10 @@ Wenjie’s research interest is energy harvesting, conversion and storage. He de
 Having been trained as an electrochemist, Wenjie likes to think about the flow of electrons and ions through materials and interfaces, and ways to control them. He believes electrochemistry is a powerful tool and he is passionate about using it to develop different energy manipulating units to solve problems, satisfy needs and create new applications. 
 
 ___
+
+
 ### Recent News
-
 {% for news in site.news limit:3%}
-<<<<<<< HEAD
-  <p class="blogdate">{{ news.date | date: "%d %B %Y" }}</p>
+  <h4 class="blogdate">{{ news.date | date: "%d %B %Y" }}</h4>
   <p>{{ news.content | markdownify }}</p>
-=======
-
- <h4 class="blogdate"> {{ news.date | date: "%d %B %Y" }} </h4>
- <p>{{ news.title }}</p>
-
->>>>>>> gh-pages
 {% endfor %}

@@ -7,6 +7,6 @@ title: What's Up
 
   <h4 class="blogdate"> {{ news.date | date: "%d %B %Y" }} </h4>
 
-  <p>{{ news.title }}</p>
+  <p>{{ news.content }}</p>
 
 {% endfor %}

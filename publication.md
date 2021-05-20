@@ -12,18 +12,17 @@ title: Publication
 
 {% for publications in site.publications reversed %}
 
-<li>
+{% if publications.level == 'primary' %}
 
+<li>
 <details>
 
  <summary>  
  	<span>  
-
 	{{ publications.author }} 
 	<b>{{ publications.title }}</b> 
 	<i>{{ publications.journal }}</i> 
 	<b>{{ publications.year }}</b>  
-
 </span> 
  </summary>
 
@@ -33,7 +32,20 @@ title: Publication
 
 </li>
 
+{% else %}
+<li>
+<span>  
+	{{ publications.author }} 
+	<b>{{ publications.title }}</b> 
+	<i>{{ publications.journal }}</i>
+	<b>{{ publications.year }}</b>  
+	(<a style="color:#0272AC;" href="{{ publications.link }}">Link</a>)
+
+</span> 
+</li>
+{% endif %}
 
 {% endfor %}
 
 </ol>
+
