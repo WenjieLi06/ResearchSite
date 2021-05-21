@@ -6,7 +6,7 @@ titles:
 
 <div class="item">
   <div class="item__image">
-    <img class="image image--lg" src="/images/Picture_Wenjie.jpeg"/>  
+    <img class="image image--lg" src="/images/Picture_Wenjie.jpeg">  
   </div>
   <div class="item__content">
     <div class="item__header">
