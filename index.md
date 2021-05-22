@@ -70,4 +70,5 @@ ___
   <p>{{ news.content | markdownify }}</p>
 {% endfor %}
 
-<a href="http://www.reliablecounter.com" target="_blank"><img src="https://www.reliablecounter.com/count.php?page=wenjieli.com&digit=style/plain/3/&reloads=0" alt="reliablecounter.com" title="reliablecounter.com" border="0"></a><br /><a href="http://https://www.reliablecounter.com/blog" target="_blank" style="font-family: Geneva, Arial; font-size: 9px; color: #330010; text-decoration: none;">reliablecounter.com</a>
+ <a href='https://www.free-counters.org/'>www.free-counters.org</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=69199f2c7aa8ba53c095d003d753b0359a8994b5'></script>
+<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/829484/t/4"></script>
