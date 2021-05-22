@@ -70,5 +70,3 @@ ___
   <p>{{ news.content | markdownify }}</p>
 {% endfor %}
 
- <a href='https://www.free-counters.org/'>www.free-counters.org</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=69199f2c7aa8ba53c095d003d753b0359a8994b5'></script>
-<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/829484/t/4"></script>
