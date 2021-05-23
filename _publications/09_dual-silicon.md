@@ -6,7 +6,7 @@ journal: Adv. Energy Mater.
 year: 2019
 level: primary
 link: https://onlinelibrary.wiley.com/doi/full/10.1002/aenm.201900918
-cover: 09.png
+cover: /images/cover/09.png
 ---
 <img class="image image--lg" src="{{ page.cover }}"/>
 

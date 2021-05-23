@@ -38,8 +38,8 @@ Having been trained as an electrochemist, Wenjie likes to think about the flow o
 
 ### Education and Training
 
-2020-                    Postdoctoral Associate, Cornell University, Advisor: Prof. Peng Chen             
-2019-2020          Postdoctoral Associate, University of Wisconsin-Madison, Advisor: Prof. Song Jin    
+2020-                  Postdoctoral Associate, Cornell University, Advisor: Prof. Peng Chen             
+2019-2020         Postdoctoral Associate, University of Wisconsin-Madison, Advisor: Prof. Song Jin    
 2014-2019          Ph.D. in Chemistry, University of Wisconsin-Madison, Advisor: Prof. Song Jin                  
 2010-2014          B.S. in Chemistry, Fudan University, Shanghai, China
 
