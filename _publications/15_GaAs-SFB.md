@@ -1,6 +1,6 @@
 ---
 layout: article
-title: WO3–reduced graphene oxide composites with enhanced charge transfer for photoelectrochemical conversion
+title: An efficient and stable solar flow battery enabled by a single-junction GaAs photoelectrode
 author: Fu, H.-C.†; Li, W.†; Yang, Y.†; Lin, C.-H.; Veyssal, A.; He, J.-H.*; Jin, S.*  
 journal: Nat. Commun. 	
 year: 2021

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: WO3–reduced graphene oxide composites with enhanced charge transfer for photoelectrochemical conversion
+title: Improved performance and stability of photoelectrochemical water-splitting Si system using a bifacial design to decouple light harvesting and electrocatalysis
 author: Fu, H.-C.; Varadhan, P.; Tsai, M.-L.; Li, W.; Ding, Q.; Lin, C.-H.; Bonifazi, M.; Fratalocchi, A.; Jin, S.; He, J.-H.*  
 journal: Nano Energy	
 year: 2020

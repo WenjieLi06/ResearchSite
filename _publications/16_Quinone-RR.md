@@ -1,6 +1,6 @@
 ---
 layout: article
-title: WO3–reduced graphene oxide composites with enhanced charge transfer for photoelectrochemical conversion
+title: Stable Tetrasubstituted Quinone Redox Reservoir for Enhancing Decoupled Hydrogen and Oxygen Evolution
 author: Wang, F.; Sheng, H.; Li, W.; Gerken, J. B.; Jin, S.; Stahl, S. S.*  
 journal: Acs Energy Lett.	
 year: 2021
