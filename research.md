@@ -1,10 +1,6 @@
 ---
 layout: article
-titles:
-  # @start locale config
-  en      : &EN       Research
-  zh-Hans : &ZH_HANS  科研兴趣
-  # @end locale config
+title: Research
 key: page-Reserach
 ---
 
