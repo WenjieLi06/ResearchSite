@@ -1,7 +1,6 @@
 ---
 layout: article
 title:
-key: page-about
 ---
 
 ### A short story about Wenjie

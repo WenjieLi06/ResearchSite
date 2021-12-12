@@ -1,7 +1,6 @@
 ---
 layout: article
 title: Research
-key: page-Reserach
 ---
 
 ### Monolithically Integrated Solar Flow Battery
