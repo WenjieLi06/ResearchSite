@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Soft–Hard Zwitterionic Additives for Aqueous Halide Flow Batteries. 
-author: Lv, X.-L.†; Sullivan, P.†; Fu, H.-C.; Hu, X.; Liu, H.; Jin, S.; Li, W.*; Feng, D.* 
+author: Choi, G.†; Sullivan, P.†; Lv, X.-L.†; Li, W.†; Lee, K.; Kong, H.; Gessler, S.; Schmidt, J. R.; Feng, D.*
 journal: Nature
 year: 2024
 level: secondary
