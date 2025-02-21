@@ -5,5 +5,5 @@ author: Zhao, M.; Li, W.; Yang, M.; Zhao, Z.; Ye, R.; Mao, X.; Padgett, P.; Chen
 journal: Nat. Catal.
 year: 2024
 level: secondary
-link: https://pubs.acs.org/doi/full/10.1021/acsenergylett.2c01198
+link: https://www.nature.com/articles/s41929-024-01199-0
 ---
