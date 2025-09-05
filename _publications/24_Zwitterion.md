@@ -5,5 +5,5 @@ author: Choi, G.†; Sullivan, P.†; Lv, X.-L.†; Li, W.†; Lee, K.; Kong, H.
 journal: Nature
 year: 2024
 level: secondary
-link:https://www.nature.com/articles/s41586-024-08079-4
+link: https://www.nature.com/articles/s41586-024-08079-4
 ---
