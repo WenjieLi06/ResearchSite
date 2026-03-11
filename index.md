@@ -4,23 +4,6 @@ titles:
   # @end locale config
 ---
 
-<div class="item">
-  <div class="item__image">
-    <img class="image image--lg" src="/images/Picture_Wenjie.jpg">  
-  </div>
-  <div class="item__content">
-    <div class="item__header">
-      <h3>Wenjie Li</h3>
-    </div>
-    <div class="item__description">
-      <p>Postdoctoral Associate <br>
-         Department of Chemistry&Chemical Biology <br>
-         Cornell University
-      </p>
-    </div>
-  </div>
-</div>
-
 
 ___
 
