@@ -169,7 +169,7 @@
     background: $background-color;
     border: 1px solid $border-color;
     border-radius: map-get($base, border-radius);
-    box-shadow: map-get($shadow, 2);
+    @include box-shadow(2);
 
     li {
       margin: 0;
