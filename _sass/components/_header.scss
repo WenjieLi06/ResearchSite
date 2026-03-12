@@ -106,6 +106,7 @@
 }
 
 .navigation__item {
+  position: relative;
   &::after {
     display: block;
     margin-bottom: -4px;
@@ -117,7 +118,76 @@
   a {
     @include link-colors($main-color-1, $main-color-1);
   }
+
+  .navigation__dropdown > summary {
+    color: $main-color-1;
+  }
+
   &::after {
     @include split-line(bottom, 4px, $main-color-1);
+  }
+}
+
+.navigation__item--has-dropdown {
+  .navigation__dropdown {
+    position: relative;
+  }
+
+  .navigation__dropdown > summary {
+    @include flexbox();
+    @include align-items(center);
+    color: $header-text-color;
+    font-weight: map-get($base, font-weight);
+    list-style: none;
+    cursor: pointer;
+  }
+
+  .navigation__dropdown > summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .navigation__dropdown > summary::after {
+    content: "▾";
+    margin-left: .3rem;
+    font-size: .7rem;
+    opacity: .75;
+  }
+
+  .navigation__dropdown[open] > summary::after {
+    content: "▴";
+  }
+
+  .navigation__dropdown-menu {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    z-index: map-get($z-indexes, modal);
+    min-width: 12rem;
+    padding: .4rem 0;
+    margin: 0;
+    list-style: none;
+    background: $background-color;
+    border: 1px solid $border-color;
+    border-radius: map-get($base, border-radius);
+    box-shadow: map-get($shadow, 2);
+
+    li {
+      margin: 0;
+      padding: 0;
+    }
+
+    a {
+      display: block;
+      padding: .35rem .8rem;
+      white-space: nowrap;
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    .navigation__dropdown-menu {
+      position: static;
+      min-width: 0;
+      margin-top: .35rem;
+    }
   }
 }

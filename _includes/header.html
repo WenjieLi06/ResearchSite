@@ -28,11 +28,38 @@
             {%- include snippets/get-nav-url.html path=page.url -%}
             {%- assign _page_url = __return -%}
             {%- include snippets/get-string-from-locale-config.html locale=_item.titles -%}
-            {%- if _nav_url == _page_url or page.nav_key and _item.key and page.nav_key == _item.key -%}
-              <li class="navigation__item navigation__item--active"><a href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a></li>
-            {%- else -%}
-              <li class="navigation__item"><a href="{{ _nav_url }}">{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a></li>
+            {%- assign _item_title = _item.title | default: __return -%}
+            {%- assign _has_children = false -%}
+            {%- assign _is_active = false -%}
+            {%- if _item.children and _item.children.size > 0 -%}
+              {%- assign _has_children = true -%}
             {%- endif -%}
+            {%- if _nav_url == _page_url or page.nav_key and _item.key and page.nav_key == _item.key -%}
+              {%- assign _is_active = true -%}
+            {%- endif -%}
+            {%- if _has_children -%}
+              {%- for _child in _item.children -%}
+                {%- include snippets/get-nav-url.html path=_child.url -%}
+                {%- if __return == _page_url -%}
+                  {%- assign _is_active = true -%}
+                {%- endif -%}
+              {%- endfor -%}
+            {%- endif -%}
+            <li class="navigation__item{%- if _is_active -%} navigation__item--active{%- endif -%}{%- if _has_children -%} navigation__item--has-dropdown{%- endif -%}">
+              {%- if _has_children -%}
+                <details class="navigation__dropdown">
+                  <summary>{{ _item_title }}</summary>
+                  <ul class="navigation__dropdown-menu">
+                    {%- for _child in _item.children -%}
+                      {%- include snippets/get-nav-url.html path=_child.url -%}
+                      <li><a href="{{ __return }}">{{ _child.title }}</a></li>
+                    {%- endfor -%}
+                  </ul>
+                </details>
+              {%- else -%}
+                <a href="{{ _nav_url }}">{{ _item_title }}</a>
+              {%- endif -%}
+            </li>
           {%- endfor -%}
           {%- if site.search.provider -%}
             <li><button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button></li>
