@@ -129,8 +129,11 @@
 }
 
 .navigation__item--has-dropdown {
+  overflow: visible;
+
   .navigation__dropdown {
     position: relative;
+    display: inline-block;
   }
 
   .navigation__dropdown > summary {
@@ -140,6 +143,7 @@
     font-weight: map-get($base, font-weight);
     list-style: none;
     cursor: pointer;
+    white-space: nowrap;
   }
 
   .navigation__dropdown > summary::-webkit-details-marker {
@@ -148,16 +152,20 @@
 
   .navigation__dropdown > summary::after {
     content: "▾";
+    display: inline-block;
+    width: .75rem;
     margin-left: .3rem;
     font-size: .7rem;
     opacity: .75;
+    transform-origin: center;
+    @include transition(transform .2s ease);
   }
 
   .navigation__dropdown[open] > summary::after {
-    content: "▴";
+    transform: rotate(180deg);
   }
 
-  .navigation__dropdown-menu {
+  .navigation__dropdown-menu { 
     position: absolute;
     top: calc(100% + 8px);
     left: 0;
@@ -180,14 +188,6 @@
       display: block;
       padding: .35rem .8rem;
       white-space: nowrap;
-    }
-  }
-
-  @include media-breakpoint-down(md) {
-    .navigation__dropdown-menu {
-      position: static;
-      min-width: 0;
-      margin-top: .35rem;
     }
   }
 }

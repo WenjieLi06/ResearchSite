@@ -1,6 +1,6 @@
 ---
 layout: article
-title: what's up
+title: News
 ---
 
 {% for news in site.news %}
