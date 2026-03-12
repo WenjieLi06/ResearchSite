@@ -22,7 +22,7 @@ header:
       # @end locale config
     children:
       - title: Current Members
-        url: publications/25_Pd-H.html
+        url: /currentMember.html
       - title: Alumni
         url: /alumni.html
 
@@ -31,7 +31,7 @@ header:
       en      : &EN       Publications
       zh-Hans : &ZH_HANS  论文发表
       # @end locale config
-    url: /publication.html     
+    url: /publications.html     
 
   - titles:
       # @start locale config
