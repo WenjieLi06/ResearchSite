@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Publication  
+title: Publications  
 ---
 
 [Google Scholar](https://scholar.google.com/citations?user=q2CN_UYAAAAJ&hl=en){:.button.button--primary.button--rounded}
@@ -23,6 +23,7 @@ title: Publication
 	<b>{{ publications.title }}</b> 
 	<i>{{ publications.journal }}</i> 
 	<b>{{ publications.year }}</b>  
+	(<a style="color:#0272AC;" href="{{ publications.link }}">Link</a>)
 </span> 
  </summary>
 
