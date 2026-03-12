@@ -1,13 +1,16 @@
 ---
 layout: article
 titles:
-  # @end locale config
+show_title: false
 ---
 
+## Welcome to the Li Lab
 
-___
+ <p style="font-size: 1.2em">We study electrochemical energy conversion across multiple scales, from single-electron processes to collective behavior at the scale of Avogadro’s number, aiming to uncover fundamental mechanisms and open new opportunities for electrochemical applications.</p>
 
-### Pictures
+
+
+## Pictures
 
 <style>
   .swiper-demo {
@@ -45,9 +48,9 @@ ___
   });
 </script>
 
-___
 
-### Recent News
+
+## Recent News
 {% for news in site.news limit:3%}
   <h4 class="blogdate">{{ news.date | date: "%d %B %Y" }}</h4>
   <p>{{ news.content | markdownify }}</p>
