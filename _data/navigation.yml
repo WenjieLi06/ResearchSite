@@ -16,11 +16,16 @@ header:
 
   - titles:
       # @start locale config
-      en      : &EN       Team
+      en      : &EN       Member
       zh-Hans : &ZH_HANS  团队
 
       # @end locale config
     url: /team.html
+    children:
+      - title: Team Overview
+        url: /team.html
+      - title: Wenjie Li
+        url: /wenjie.html
 
   - titles:
       # @start locale config
@@ -35,4 +40,3 @@ header:
       zh-Hans : &ZH_HANS  新闻
       # @end locale config
     url: /news.html      
-
