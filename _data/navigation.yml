@@ -23,8 +23,8 @@ header:
     children:
       - title: Current Members
         url: /currentMember.html
-      - title: Alumni
-        url: /alumni.html
+      # - title: Alumni
+      #   url: /alumni.html
 
   - titles:
       # @start locale config

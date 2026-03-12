@@ -1,33 +1,20 @@
 ---
 layout: article
-title: About
+title: Wenjie Li, PI
+link: https://www.nature.com/articles/s41929-025-01429-z
+cover: /images/members/01_Wenjie.jpg
 ---
-<div class="item">
-  <div class="item__image">
-    <img class="image image--lg" src="/images/members/01_Wenjie.jpg">  
-  </div>
-  <div class="item__content">
-    <div class="item__header">
-      <h3>Wenjie Li</h3>
-    </div>
-    <div class="item__description">
-      <p>Postdoctoral Associate <br>
-         Department of Chemistry&Chemical Biology <br>
-         Cornell University
-      </p>
-    </div>
-  </div>
-</div>
+<img class="image image--lg" src="{{ page.cover }}"/>
 
-### A short story about Wenjie
+<!-- ### A short story about Wenjie
 
-Wenjie was born in a beautiful small city (Ganzhou) lying in the southeastern part of China. In 2010, he started his undergraduate study in Fudan University as an independent recruitment student and later joined professor Gengfeng Zheng’s research group. After one year of research training, he started his independent project on photoelectrochemical energy conversion as a CURE fellow. 
+Wenjie was born in a beautiful small city (Ganzhou) lying in the southeastern part of China. In 2010, he started his undergraduate study in Fudan University as an independent recruitment student and later joined professor Gengfeng Zheng’s research group. After one year of research training, he started his independent project on photoelectrochemical energy conversion as a CURE fellow.
 
-  
+
 Wenjie’s research interest is energy harvesting, conversion and storage. He decided to follow his interest and pursuing a better understanding of the science behind practical "energy manipulation" in graduate school. Short after joining Prof. Song Jin's research group in University of Wisconsin-Madison, he found that solar energy could be a good solution to fill the gap between fossil fuel era and nuclear fission era. He devoted most of his time in graduate school to the development aof a novel type of integrated solar flow battery device. This research experience unexpectedly opened the door to a sustained and much deeper investigation of aqueous redox flow batteries, a direction he has continued to pursue since the end of his graduate studies.
 
-  
-Having been trained as an electrochemist, Wenjie likes to think about the flow of electrons and ions through materials and interfaces, and ways to control them. He believes electrochemistry is a powerful tool and he is passionate about using it to develop different energy manipulating units to solve problems, satisfy needs and create new applications. After passing many Avogadro number of electrons through bulk electrodes and molecules in graduate school, Wenjie joined Prof. Peng Chen's group in Cornell University and started his new journey of probing one molecule at a time through an optical microscope.
+
+Having been trained as an electrochemist, Wenjie likes to think about the flow of electrons and ions through materials and interfaces, and ways to control them. He believes electrochemistry is a powerful tool and he is passionate about using it to develop different energy manipulating units to solve problems, satisfy needs and create new applications. After passing many Avogadro number of electrons through bulk electrodes and molecules in graduate school, Wenjie joined Prof. Peng Chen's group in Cornell University and started his new journey of probing one molecule at a time through an optical microscope. -->
 
 ### Education and Training
 
