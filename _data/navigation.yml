@@ -5,38 +5,37 @@ header:
       en      : &EN       Home
       zh-Hans : &ZH_HANS  主页
       # @end locale config
-    url: /navigationPages/index.html      
+    url: /index.html      
 
   - titles:
       # @start locale config
       en      : &EN       Research
       zh-Hans : &ZH_HANS  科研兴趣
       # @end locale config
-    url: /navigationPages/research.html
+    url: /research.html
 
   - titles:
       # @start locale config
-      en      : &EN       team
+      en      : &EN       Team
       zh-Hans : &ZH_HANS  团队
 
       # @end locale config
-    url: /navigationPages/team.html
     children:
-      - title: Team Overview
-        url: /navigationPages/team.html
-      - title: Wenjie Li
-        url: /navigationPages/wenjie.html
+      - title: Current Members
+        url: publications/25_Pd-H.html
+      - title: Alumni
+        url: /alumni.html
 
   - titles:
       # @start locale config
       en      : &EN       Publications
       zh-Hans : &ZH_HANS  论文发表
       # @end locale config
-    url: /navigationPages/publication.html     
+    url: /publication.html     
 
   - titles:
       # @start locale config
       en      : &EN       News
       zh-Hans : &ZH_HANS  新闻
       # @end locale config
-    url: /navigationPages/news.html      
+    url: /news.html      
