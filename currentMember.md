@@ -1,11 +1,17 @@
 ---
 layout: articles
 title: Current Members
-articles:
-  data_source: currentMember
-  type: grid
 ---
+<div class="grid">
+  <div class="cell cell--6">6 cells
+  {% for members in site.currentMember%}
 
+  {% if publications.position == 'Principal Investigator' %}
+  
+  
+  </div>
+
+</div>
 
 
 
