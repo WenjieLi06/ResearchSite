@@ -1,7 +1,7 @@
 ---
 layout: article
 title: electron
-position: Undergraduate Researcher
+position: Postdoctoral Researcher
 email: We are recruiting!
 cover: /images/members/03_microscope.jpg
 show_title: false

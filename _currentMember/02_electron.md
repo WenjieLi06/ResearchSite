@@ -1,7 +1,7 @@
 ---
 layout: article
 title: electron
-position: Graduate Researcher
+position: Undergraduate Researcher
 email: We are recruiting!
 cover: /images/members/02_electron.jpg
 show_title: false
