@@ -6,7 +6,7 @@ show_title: false
 
 ## Welcome to the Li Lab
 
- <p style="font-size: 1.2em">We study electrochemical energy conversion across multiple scales, from single-electron processes to collective behavior at the scale of Avogadro’s number, aiming to uncover fundamental mechanisms and open new opportunities for electrochemical applications.</p>
+ <p style="font-size: 1.2em">We study electrochemical energy conversion across scales, from single-electron events to the collective behavior of Avogadro-scale systems, aiming to uncover fundamental mechanisms and unlock new electrochemical applications. </p>
 
 
 

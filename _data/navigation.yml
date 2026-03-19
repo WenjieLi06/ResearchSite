@@ -23,8 +23,8 @@ header:
     children:
       - title: Current Members
         url: /currentMember.html
-      # - title: Alumni
-      #   url: /alumni.html
+      - title: Alumni
+        url: /alumni.html
 
   - titles:
       # @start locale config
@@ -32,6 +32,13 @@ header:
       zh-Hans : &ZH_HANS  论文发表
       # @end locale config
     url: /publications.html     
+
+    - titles:
+      # @start locale config
+      en      : &EN       Openings
+      zh-Hans : &ZH_HANS  加入我们
+      # @end locale config
+    url: /openings.html     
 
   - titles:
       # @start locale config
