@@ -51,7 +51,7 @@ show_title: false
 
 
 ## Recent News
-{% for news in site.news limit:3%}
+{% for news in site.news reversed limit:3% }
   <h4 class="blogdate">{{ news.date | date: "%d %B %Y" }}</h4>
   <p>{{ news.content | markdownify }}</p>
 {% endfor %}
