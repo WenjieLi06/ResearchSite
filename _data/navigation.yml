@@ -18,7 +18,6 @@ header:
       # @start locale config
       en      : &EN       Team
       zh-Hans : &ZH_HANS  团队
-
       # @end locale config
     url: /currentMember.html
 
