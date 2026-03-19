@@ -8,7 +8,7 @@ We welcome undergraduate and graduate students interested in electrochemistry, s
 
 本科生：欢迎来自理工科专业且对电化学感兴趣的本科生加入我们，有意向的同学请将个人简历和成绩单发送至以下邮箱：<a style="color:#0272AC; font-weight: normal;" href="mailto: wli@nankai.edu.cn">wli@nankai.edu.cn</a>。<br>
 
-研究生及博士生：请关注南开大学化学学院研究生招生信息 (<a style="color:#0272AC; font-weight: normal;" href="链接">https://chem.nankai.edu.cn/24089/list.htm</a> )。<br>
+研究生及博士生：请关注南开大学化学学院研究生招生信息 (<a style="color:#0272AC; font-weight: normal;" href="https://chem.nankai.edu.cn/24089/list.htm">链接</a> )。<br>
 
-博士后： <a style="color:#0272AC; font-weight: normal;" href="南开大学2026年博士后招收公告">https://rsc.nankai.edu.cn/2024/1231/c14458a561059/page.htm </a> <br>
+博士后： <a style="color:#0272AC; font-weight: normal;" href="https://rsc.nankai.edu.cn/2024/1231/c14458a561059/page.htm">南开大学2026年博士后招收公告</a> <br>
 
