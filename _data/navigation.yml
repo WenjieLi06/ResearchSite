@@ -20,11 +20,13 @@ header:
       zh-Hans : &ZH_HANS  团队
 
       # @end locale config
-    children:
-      - title: Current Members
-        url: /currentMember.html
-      - title: Alumni
-        url: /alumni.html
+    url: /currentMember.html
+
+    # children:
+    #   - title: Current Members
+    #     url: /currentMember.html
+    #   - title: Alumni
+    #     url: /alumni.html
 
   - titles:
       # @start locale config
