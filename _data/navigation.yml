@@ -34,7 +34,7 @@ header:
       # @end locale config
     url: /publications.html     
 
-    - titles:
+  - titles:
       # @start locale config
       en      : &EN       Openings
       zh-Hans : &ZH_HANS  加入我们
