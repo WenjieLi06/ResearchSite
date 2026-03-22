@@ -32,9 +32,9 @@ show_title: false
 <div class="swiper my-3 swiper-demo swiper-demo--image swiper-1">
   <div class="swiper__wrapper">
     <div class="swiper__slide"><img class="lightbox-ignore" src="/images/swiper/01.png"/></div>
+    <div class="swiper__slide"><img class="lightbox-ignore" src="/images/swiper/04.png"/></div>
     <div class="swiper__slide"><img class="lightbox-ignore" src="/images/swiper/02.png"/></div>
     <div class="swiper__slide"><img class="lightbox-ignore" src="/images/swiper/03.png"/></div>
-    <div class="swiper__slide"><img class="lightbox-ignore" src="/images/swiper/04.png"/></div>
   </div>
   <div class="swiper__button swiper__button--prev fas fa-chevron-left"></div>
   <div class="swiper__button swiper__button--next fas fa-chevron-right"></div>
@@ -51,7 +51,7 @@ show_title: false
 
 
 ## Recent News
-{% for news in site.news limit:3%}
+{% for news in site.news reversed limit:3%}
   <h4 class="blogdate">{{ news.date | date: "%d %B %Y" }}</h4>
   <p>{{ news.content | markdownify }}</p>
 {% endfor %}
