@@ -41,8 +41,7 @@ Having been trained as an electrochemist, Wenjie likes to think about the flow o
 
 ### Academic Appointments
 
-2026-present&emsp;&emsp;Professor, College of Chemistry, Nankai University 
-
+2026-present&emsp;&emsp;Professor (tenure-track), College of Chemistry, Nankai University 
 
 
 ### Education and Training
@@ -53,7 +52,20 @@ Having been trained as an electrochemist, Wenjie likes to think about the flow o
 2010-2014&emsp;&emsp;&emsp;B.S. in Chemistry, Fudan University, Advisor: Prof. Gengfeng Zheng   
 
 
-### Awards and Honors
-Richard and Joan Hartl Award for Research Excellence in Materials Chemistry（2019)  
-Materials Research Societ Graduate Student Award (2018)       
-Hui-Chun Chin and Chin-Dao Lee Chinese Undergraduate Research Endowment Fellow (2013)     
+### Selected Awards and Honors
+2019&emsp;Chinese Government Award for Outstanding Self-financed Students Abroad         
+2019&emsp;Richard and Joan Hartl Award for Research Excellence in Materials Chemistry         
+2018&emsp;Materials Research Societ Graduate Student Award         
+2013&emsp;Hui-Chun Chin and Chin-Dao Lee Chinese Undergraduate Research Endowment Fellow         
+
+
+### Selected Presentations
+2019&emsp;Invited Presentation, International Battery Seminar & Exhibit         
+2018&emsp;MRS Award Presentation, MRS Fall Meeting         
+2018&emsp;Oral Presentation, ACS Fall National Meeting         
+2018&emsp;Oral Presentation, MRS Spring Meeting         
+2017&emsp;Oral Presentation, MRS Spring Meeting         
+2017&emsp;Oral Presentation, 232<sup>nd</sup> ECS Meeting         
+2016&emsp;Oral Presentation, MRS Fall Meeting         
+2014&emsp;Oral Presentation, U21 Undergraduate Research Conference         
+
