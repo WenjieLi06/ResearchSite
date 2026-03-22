@@ -1,9 +1,9 @@
 ---
 layout: article
-title: Redox Flow Battery
-position: Graduate Researcher
+title: Scopy
+position: Postdoctoral Researcher
 email: We are recruiting!
-cover: /images/members/04_rfb.jpg
+cover: /images/members/microscope.jpg
 show_title: false
 show_date: false
 ---

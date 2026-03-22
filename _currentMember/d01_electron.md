@@ -1,9 +1,9 @@
 ---
 layout: article
-title: electron
-position: Postdoctoral Researcher
+title: Elley
+position: Undergraduate Researcher
 email: We are recruiting!
-cover: /images/members/03_microscope.jpg
+cover: /images/members/electron.jpg
 show_title: false
 show_date: false
 ---

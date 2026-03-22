@@ -3,7 +3,7 @@ layout: article
 title: Wenjie Li
 position: Principal Investigator
 email: wli@nankai.edu.cn
-cover: /images/members/01_Wenjie.jpg
+cover: /images/members/Wenjie.jpg
 show_title: false
 show_date: false
 ---

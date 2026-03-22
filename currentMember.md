@@ -15,6 +15,7 @@ title: Current Members
         <h3 class="member-card__title">{{ member.title }}</h3>
         {% if member.position %}
           <p class="member-card__position">{{ member.position }}</p>
+          <p class="member-card__email"> <a style="color:#0272AC; font-weight: normal;" href="mailto: {{member.email}}">{{member.email}}</a></p>
         {% endif %}
       </div>
     </article>
@@ -51,6 +52,11 @@ title: Current Members
   }
 
   .member-card__position {
+    margin: 0.35rem 0 0;
+    color: #5a5a5a;
+    font-size: 0.95rem;
+  }
+  .member-card__email {
     margin: 0.35rem 0 0;
     color: #5a5a5a;
     font-size: 0.95rem;

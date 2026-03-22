@@ -36,10 +36,10 @@ header:
 
   - titles:
       # @start locale config
-      en      : &EN       Openings
+      en      : &EN       Join us
       zh-Hans : &ZH_HANS  加入我们
       # @end locale config
-    url: /openings.html     
+    url: /joinUS.html     
 
   - titles:
       # @start locale config

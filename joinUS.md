@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Openings
+title: Open Positions
 ---
 We welcome undergraduate and graduate students interested in electrochemistry, single-molecule chemistry, and materials chemistry to join our group. Postdoctoral candidates with strong research experience are encouraged to apply. In our group, you will have the opportunity to explore research topics that truly inspire you, while learning and growing in an open, supportive, and collaborative environment alongside colleagues from diverse backgrounds. If you are passionate about chemical research and eager to explore the unknown, we would be delighted to have you join us.<br>
 

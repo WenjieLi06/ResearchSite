@@ -1,9 +1,9 @@
 ---
 layout: article
-title: electron
-position: Undergraduate Researcher
+title: Flowy
+position: Graduate Researcher
 email: We are recruiting!
-cover: /images/members/02_electron.jpg
+cover: /images/members/rfb.jpg
 show_title: false
 show_date: false
 ---
