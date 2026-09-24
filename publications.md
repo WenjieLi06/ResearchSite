@@ -7,7 +7,7 @@ title: Publications
 
 
 
-<ol>
+<ol class="publication-list">
 
 
 {% for publications in site.publications reversed %}
