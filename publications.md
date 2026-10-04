@@ -7,16 +7,28 @@ title: Publications
 
 
 
-## Before Nankai
+{% assign publication_sections = 'current,before-nankai' | split: ',' %}
+{% for section in publication_sections %}
 
-<ol class="publication-list">
+{% if section == 'before-nankai' %}
+## Before Nankai
+{% endif %}
+
+<ol class="publication-list" reversed>
 
 
 {% for publications in site.publications reversed %}
 
+{% assign publication_number = publications.path | split: '/' | last | split: '_' | first | plus: 0 %}
+{% if section == 'current' and publication_number <= 25 %}
+  {% continue %}
+{% elsif section == 'before-nankai' and publication_number > 25 %}
+  {% continue %}
+{% endif %}
+
 {% if publications.level == 'primary' %}
 
-<li>
+<li value="{{ publication_number }}">
 <details>
 
  <summary>  
@@ -36,7 +48,7 @@ title: Publications
 </li>
 
 {% else %}
-<li>
+<li value="{{ publication_number }}">
 <span>  
 	{{ publications.author }} 
 	<b>{{ publications.title }}</b> 
@@ -52,3 +64,4 @@ title: Publications
 
 </ol>
 
+{% endfor %}
