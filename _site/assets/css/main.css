@@ -1640,4 +1640,16 @@ body, html, .root, .layout--page { height: 100%; }
 .layout--404 .sign p { font-size: 1.8rem; }
 
 /* start custom scss snippet */
+/* Keep list numbers, disclosure arrows, and wrapped citations in separate columns. */
+.publication-list > li { padding-left: 1.25em; }
+
+.publication-list > li > details > summary { position: relative; display: block; list-style: none; cursor: pointer; }
+
+/* Safari needs its native disclosure marker hidden explicitly. */
+.publication-list > li > details > summary::-webkit-details-marker { display: none; }
+
+.publication-list > li > details > summary::before { position: absolute; top: .55em; left: -1em; width: 0; height: 0; content: ""; border-top: .3em solid transparent; border-bottom: .3em solid transparent; border-left: .4em solid currentColor; }
+
+.publication-list > li > details[open] > summary::before { transform: rotate(90deg); }
+
 /* end custom scss snippet */
