@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Meng Wang
-position: Graduate Researcher (Master's)
+position: Graduate Researcher (M.S.)
 email: warmer@mail.nankai.edu.cn
 cover: /images/members/Meng-Wang.jpg
 show_title: false
