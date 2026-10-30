@@ -1,9 +1,9 @@
 ---
 layout: article
-title: what's up
+title: News
 ---
 
-{% for news in site.news %}
+{% for news in site.news reversed %}
 
   <h4 class="blogdate"> {{ news.date | date: "%d %B %Y" }} </h4>
 

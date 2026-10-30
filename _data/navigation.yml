@@ -5,7 +5,7 @@ header:
       en      : &EN       Home
       zh-Hans : &ZH_HANS  主页
       # @end locale config
-    url: index.html      
+    url: /index.html      
 
   - titles:
       # @start locale config
@@ -16,23 +16,30 @@ header:
 
   - titles:
       # @start locale config
-      en      : &EN       Member
+      en      : &EN       Team
       zh-Hans : &ZH_HANS  团队
-
       # @end locale config
-    url: /team.html
-    children:
-      - title: Team Overview
-        url: /team.html
-      - title: Wenjie Li
-        url: /wenjie.html
+    url: /currentMember.html
+
+    # children:
+    #   - title: Current Members
+    #     url: /currentMember.html
+    #   - title: Alumni
+    #     url: /alumni.html
 
   - titles:
       # @start locale config
       en      : &EN       Publications
       zh-Hans : &ZH_HANS  论文发表
       # @end locale config
-    url: /publication.html     
+    url: /publications.html     
+
+  - titles:
+      # @start locale config
+      en      : &EN       Join us
+      zh-Hans : &ZH_HANS  加入我们
+      # @end locale config
+    url: /joinUS.html     
 
   - titles:
       # @start locale config
